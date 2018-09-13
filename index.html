@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+
+
+<title>API HW</title> 
+<meta charset="utf-8"> 
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="css/reset.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+</head> 
+
+
+<body> 
+<h1>Giphy API</h1> 
+ 
+
+
+<form class="form-inline" id="Search"> 
+<div class="form-group"> 
+<label for="Input">Search Shows</label> 
+<input type="text" id="ShowInput"> 
+<input id="addShow" type="submit" value="submit"> 
+</form>  
+
+
+
+<div class="row"> 
+<div class="container"> 
+<div class="btn-group"> 
+<button class="btn btn-primary" id="show" data-search="Moesha">Moesha</button> 
+<button class="btn btn-primary" id="show" data-search="The Cosby Show">The Cosby Show</button> 
+<button class="btn btn-primary" id="show" data-search="The Fresh Prince">The Fresh Prince</button> 
+<button class="btn btn-primary" id="show" data-search="The Wayans Brothers">The Wayans Brothers</button> 
+
+<div id="myButtons"></div> 
+<div id="gifs-space">
+</div>
+</div> 
+</div>
+</div>
+ 
+<script type="text/javascript" src="assets/javascript/giphy.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+</body> 
+</html>
